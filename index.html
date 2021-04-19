@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Rate Songs Here!</title>
+    <script src="myCode.js">
+    </script>
+</head>
+<body onload="getSongs();setInterval(getSongs, 5000);">
+
+<h2>Add Song</h2>
+YouTube id (11 digits)<br/><input type="text" id="song_id_input"/><br/><br/>
+Title<br/><input type="text" id="song_title_input"/><br/><br/>
+Artist<br/><input type="text" id="song_artist_input"/><br/><br/>
+<button onClick="newSong();">Submit</button>
+<hr/>
+
+<div id="songs"></div>
+
+</body>
+</html>
